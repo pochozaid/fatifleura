@@ -1,0 +1,30 @@
+@import"../../../node_modules/bulma/sass/grid/columns.sass";
+@import"../../../node_modules/bulma/sass/elements/form.sass";
+
+
+body{
+ background-image: url('https://images.pexels.com/photos/209678/pexels-photo-209678.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.column {
+  background-color: inherit;}
+
+#box{
+    background-color: rgba(0,0,0,0.3);
+  }
+  #label{
+    color: rgb(38, 66, 66)
+  }
+  #modifier{
+        background-color: snow;
+        color: black;
+        font-weight: bold;}
+#span{
+    color: black;
+}
+#icon{
+    color: black;
+}

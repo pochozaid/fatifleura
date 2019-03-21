@@ -1,0 +1,60 @@
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../../node_modules/bulma/sass/elements/table.sass";
+@import "../../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../../node_modules/bulma/sass/components/modal.sass";
+@import "../../../node_modules/bulma/bulma.sass";
+
+.hero.is-info {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .navbar {
+    min-height: 3.25rem;
+    background-color: black;
+}
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+body{
+    //background-image:url('https://picsum.photos/1200/900/?image=85');
+    background-image:url('https://images.wallpaperscraft.com/image/stars_milky_way_space_116893_1280x960.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+html,body {
+    font-family: 'Open Sans', serif;
+  }
+  
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
+  }
+
+  .loader {
+    border: 20px solid #f3f3f3;
+    border-radius: 60%;
+    border-top: 16px solid #3498db;
+    width: 550px;
+    height: 400px;
+    margin-left: 270px;
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

@@ -1,0 +1,65 @@
+@import "../../../node_modules/bulma/sass/components/card.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+
+
+.card{
+    width: 42vh;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.columns.is-multiline{
+    flex: auto;
+    margin-top: 15px;
+}
+
+
+body{
+    background-color: rgb(224,224,224);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ button, #edit {
+    background-color: rgb(154,176,209);
+    color: white;
+    margin: 0 auto;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+    outline: 0;
+    letter-spacing: .04em;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+    
+  button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+    transform: translateY(1px);
+  }
+
+  #max, #min, h1{
+      font-family: aclonica, sans-serif;
+      font-size: 15px;
+  }
+
+  h1{
+    font-family: aclonica, sans-serif;
+    font-size: 20px;
+    margin-top: -30px;
+    text-align: center;
+  }
+
+  #maxcontent, #mincontent{
+     margin-left: 7.5vh;
+  }
+
+  #contentmaxmin{
+    margin: 0 auto;
+  }

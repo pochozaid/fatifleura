@@ -1,0 +1,27 @@
+@import"../../../node_modules/bulma/sass/grid/columns.sass";
+@import"../../../node_modules/bulma/sass/elements/form.sass";
+
+
+
+
+body{
+  //background-image:url('https://images.pexels.com/photos/357547/pexels-photo-357547.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  //background-image:url('https://images.pexels.com/photos/872958/pexels-photo-872958.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+ background-image: url('https://images.pexels.com/photos/714701/pexels-photo-714701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+ //background-image: url('https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-position: center;
+
+
+  background-size: cover;
+}
+.column {
+  background-color: inherit;}
+
+#box{
+    background-color: rgba(0,0,0,0.3);
+  }
+  #label{
+    color: azure
+  }
+  #button{
+background-color: darkturquoise;}
